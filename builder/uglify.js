@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 
 function builder (id, content, minify) {
     if (minify) {
-        return require('uglifyjs').minify(content , {fromString:true}).code;
+        return require('uglify-js').minify(content , {fromString:true}).code;
     }
 
     return content;
