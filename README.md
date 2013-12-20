@@ -2,7 +2,7 @@
 
 Builder for grunt-crane, which uglify when --compress
 
-===
+## Installation
 
 This plugin requires Grunt `~0.4.2` and grunt-crane `~0.5.0`.
 
@@ -11,6 +11,8 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 ```shell
 npm install grunt-crane-uglify --save-dev
 ```
+
+## Usage
 
 Once the plugin has been installed, specify your file with this builder:
 
